@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffcccc;
+    text-align: center;
+    padding: 40px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex; /* Convertimos el contenedor en un flex container */
+    flex-wrap: wrap; /* Permitimos que los elementos se envuelvan si no caben en una sola fila */
+    justify-content: space-between; /* Distribuimos los elementos en el espacio disponible */
+  }
+  
+  /* Estilo del poema */
+  .poema {
+    flex: 1; /* Permite que ocupe el espacio disponible en la primera columna */
+  }
+  
+  /* Estilo del slider */
+  .gallery {
+    flex: 1; /* Permite que ocupe el espacio disponible en la segunda columna */
+    margin-top: 300px;
+    margin-bottom: 20px; /* Añadimos un margen inferior para separar la galería del poema */
+    margin-left: 100px;
+    background-color: #ffe6e6;
+  }
+  
+  .slider {
+    background-color: transparent; /* Fondo transparente para el slider */
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tns-controls {
+    display: none;
+  }
+   
+  
+  footer {
+    background-color: #ff9999;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+  }
+
+  section {
+    background-color: #ffe6e6;
+  }
